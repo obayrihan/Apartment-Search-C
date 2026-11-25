@@ -2,7 +2,7 @@
 #define HEADER1_H
 #include "flat.h"
 
-void menu();
+void Menu();
 void DisplayFlats(int room);
 void DisplayAll(struct Flat *flats, int num);
 
