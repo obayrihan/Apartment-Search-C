@@ -5,7 +5,7 @@
 #include "flat.h"
 void Menu();
 void DisplayFlats(int room);
-void DisplayAll(struct Flat *flats, int num);
+void DisplayAll(struct flat *flats, int num);
 
 
 
