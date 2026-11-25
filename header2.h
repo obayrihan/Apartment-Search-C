@@ -1,7 +1,8 @@
 #ifndef HEADER2_H
 #define HEADER2_H
 
-struct flat;
+#include "flat.h"
+
 
 void SearchFlat(char name[], struct Flat *flats, int n);
 void BookFlat(struct flat *flats, int num, int n);
