@@ -17,7 +17,7 @@ void Menu() {
     printf("5. Calculate Rent\n");
     printf("6. Write to File\n");
     printf("7. Read from File\n");
-    printf("-1. Exit Menu \n")
+    printf("-1. Exit Menu \n");
 }
 
 void DisplayFlats(int room) {
