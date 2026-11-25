@@ -4,7 +4,7 @@
 struct flat;
 
 void SearchFlat(char name[], struct Flat *flats, int n);
-void BookFlat(struct Flat *flats, int num, int n);
+void BookFlat(struct flat *flats, int num, int n);
 float CalculateRent(struct Flat *flats, int month, int Numb, int n);
 
 #endif
