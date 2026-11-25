@@ -8,7 +8,7 @@
 void SearchFlat(char name[], struct flat *flats, int n) {
     for (int i = 0; i < n; i++) {
         if (strcmp(flats[i].name, name) == 0) {
-            printf("The %s flat has number %d", name, flats[i].number);
+            printf("The %s flat has number %d\n", name, flats[i].number);
         }
     }
 }
