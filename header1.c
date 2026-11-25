@@ -23,7 +23,7 @@ void Menu() {
 void DisplayFlats(int room) {
     printf("Rooms: %d\n",room);
 }
-void DisplayAll(struct Flat *flats, int num) {
+void DisplayAll(struct flat *flats, int num) {
     int i;
     for (i = 0 ; i < num ; i++) {
         printf("%d %d %s %s %d %s %.2f\n",
